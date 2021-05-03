@@ -1,0 +1,44 @@
+<!doctype html>
+        {% load static %}
+<html lang="en">
+<head>
+      <title>Image Classification</title>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+      <link href="{% static 'css/mdb.min.css' %}" rel="stylesheet">
+      <link href="{% static 'css/style.min.css' %}" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="btn btn-primary" href="{% url 'predict_xray' %}">New</a>
+            <div align="center"><h2 align="center">Django Machine Learning With Keras For Covid 19 Detection With X-ray</h2></div>
+
+        </div>
+
+  </nav>
+
+  <div class="container mt-4">
+
+    {% block content %}
+
+    {% endblock %}
+
+  </div>
+  <div class="mt-5 pt-4" align="center">
+    {% if messages %}
+      <h1>Predicting Is Terminate with Succes</h1>
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+{% include "footer.html" %}
+</body>
+</html>

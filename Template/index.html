@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<html>
+<head>
+    <title>Image Classification</title>
+</head>
+<body>
+
+<div class="container my-5" align="center">
+    <form method="post" enctype="multipart/form-data">
+
+        {% csrf_token %}
+        {{ form|crispy }}
+        <p><input type="file" name="sentFile" accept="image/*" id="file" onchange="loadFile(event)" class="btn btn-success"/></p>
+        <div class="acol-md-4 col-sm-12 col-lg-3 m-1">
+        <div class="card" style='width:100%; height:300px'>
+
+
+                    <article class="gallery-wrap" align="center">
+                        <div class="img-big-wrap">
+                            <img id="output" src="#" alt = "new image" width="200" class="card-img-top"/>
+                        </div>
+                    </article>
+                    </div>
+
+
+       <a href="{% url 'predict_xray' %}"> <input type="submit" name="submit" value="Upload And Detect Image" class="btn btn-success"/></a>
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+        var loadFile = function(event){
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
+</div>
+
+</body>
+</html>
+        {% endblock %}
