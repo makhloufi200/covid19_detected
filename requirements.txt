@@ -30,4 +30,8 @@ tensorflow==1.14.0
 tensorflow-estimator==1.14.0
 numpy==1.16.4
 cvlib==0.2.2
-tensorflow==1.14.0
+tensorflow==2.4.1
+tensorflow-datasets==4.2.0
+tensorflow-estimator==2.4.0
+tensorflow-metadata==0.28.0
+tensorflow-tensorboard==0.4.0
