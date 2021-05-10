@@ -13,9 +13,10 @@ from django.contrib import messages
 from .forms import *
 from .models import xray
 from django.views.generic import ListView, DeleteView, CreateView, UpdateView
-# Create your views here.
+from keras.models import load_model
 
-
+#load detect model
+#model = load_model("detect_covid19.h5")
 def define_model(request):
     data = []
     labels = []
@@ -108,7 +109,7 @@ def define_model(request):
     #Use model.evaluate to see how model work on test set
     score = model.evaluate(x_test, y_test, verbose=1)
     print('\n', 'Test accuracy:', score[1])
-
+    model.save('detect_covid19.h5')
     return model
     #return render(request,'base.html')
 
@@ -132,7 +133,8 @@ def predict_image(request,file):
     a=[]
     a.append(ar)
     a=np.array(a)
-    model = define_model(request)
+    #model = define_model(request)
+    model = load_model("detect_covid19.h5")
     score=model.predict(a,verbose=1)
     print(score)
     label_index=np.argmax(score)
@@ -141,7 +143,7 @@ def predict_image(request,file):
     xray_image=get_image_result(label_index)
     print(xray_image)
     print("The predicted X-Ray Image is a "+xray_image+" with accuracy =    "+str(acc))
-    messages.info(request,"The predicted Animal is a: "+xray_image)
+    messages.info(request,"The predicted Image is a: "+xray_image)
     messages.info(request,"with accuracy: "+str(acc * 100) +" %")
     return ("Covid 19 X-Ray Detection Is "+xray_image+" with accuracy =    "+str(acc))
 
@@ -168,3 +170,8 @@ def predict_xray(request):
 def create_image(request):
 
     messages.success(request, 'Detect Terminate With Success')
+
+def train_model(request):
+    predict_image(request,"test.jpg")
+
+    return render(request, 'index.html')
