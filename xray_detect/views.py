@@ -13,7 +13,7 @@ from django.contrib import messages
 from .forms import *
 from .models import xray
 from django.views.generic import ListView, DeleteView, CreateView, UpdateView
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 #load detect model
 #model = load_model("detect_covid19.h5")

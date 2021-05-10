@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/covid19_detected/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="842" selection-end="842" vertical-scroll-proportion="0.17406143" vertical-offset="357" max-vertical-offset="2431">
+            <state line="27" column="19" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2431">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="26" selection-start="5553" selection-end="5553" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3094">
+            <state line="16" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.4641638" vertical-offset="0" max-vertical-offset="3094">
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -64,8 +64,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="816">
-              <folding />
+            <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="816">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +75,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="61" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+            <state line="15" column="61" selection-start="647" selection-end="647" vertical-scroll-proportion="-4.5384617" vertical-offset="137" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -107,8 +109,8 @@
         <option value="$PROJECT_DIR$/Template/index.html" />
         <option value="$PROJECT_DIR$/Template/base.html" />
         <option value="$PROJECT_DIR$/xray_detect/urls.py" />
-        <option value="$PROJECT_DIR$/xray_detect/views.py" />
         <option value="$PROJECT_DIR$/covid19_detected/settings.py" />
+        <option value="$PROJECT_DIR$/xray_detect/views.py" />
       </list>
     </option>
   </component>
@@ -198,7 +200,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -235,7 +237,9 @@
     <entry file="file://$PROJECT_DIR$/Template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="36" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="816">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -297,13 +301,6 @@
         <state line="4" column="69" selection-start="198" selection-end="198" vertical-scroll-proportion="0.12142857" vertical-offset="0" max-vertical-offset="560" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xray_detect/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -311,26 +308,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/covid19_detected/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Template/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="61" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+        <state line="15" column="61" selection-start="647" selection-end="647" vertical-scroll-proportion="-4.5384617" vertical-offset="137" max-vertical-offset="850">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="26" selection-start="5553" selection-end="5553" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3094">
+        <state line="16" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.4641638" vertical-offset="0" max-vertical-offset="3094">
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/covid19_detected/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="842" selection-end="842" vertical-scroll-proportion="0.17406143" vertical-offset="357" max-vertical-offset="2431">
-          <folding />
         </state>
       </provider>
     </entry>
