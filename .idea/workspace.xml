@@ -53,10 +53,8 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
+            <state line="16" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3094">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,10 +62,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="816">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="816">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +71,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="867">
+            <state line="4" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -84,7 +80,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="727" selection-end="727" vertical-scroll-proportion="0.9419795" vertical-offset="60" max-vertical-offset="714">
+            <state line="32" column="18" selection-start="615" selection-end="615" vertical-scroll-proportion="0.70989764" vertical-offset="128" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -156,6 +152,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,12 +187,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -211,7 +212,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -247,9 +248,7 @@
     <entry file="file://$PROJECT_DIR$/Template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="36" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="816">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -320,32 +319,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="27" column="91" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="816">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="867">
+        <state line="4" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="727" selection-end="727" vertical-scroll-proportion="0.9419795" vertical-offset="60" max-vertical-offset="714">
+        <state line="32" column="18" selection-start="615" selection-end="615" vertical-scroll-proportion="0.70989764" vertical-offset="128" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
