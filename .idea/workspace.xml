@@ -41,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="12" selection-start="2356" selection-end="2361" vertical-scroll-proportion="-2.278157" vertical-offset="2406" max-vertical-offset="2992">
+            <state line="69" column="12" selection-start="2356" selection-end="2361" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2992">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.69624573" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
@@ -53,7 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="78" selection-start="861" selection-end="861" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="833">
+            <state line="22" column="78" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -62,7 +71,7 @@
       <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="67" selection-start="196" selection-end="196" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+            <state line="4" column="67" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -71,7 +80,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="119" selection-start="878" selection-end="878" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="867">
+            <state line="17" column="119" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -97,7 +106,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/covid19_detected/urls.py" />
         <option value="$PROJECT_DIR$/xray_detect/models.py" />
         <option value="$PROJECT_DIR$/xray_detect/forms.py" />
@@ -108,6 +116,7 @@
         <option value="$PROJECT_DIR$/Template/base.html" />
         <option value="$PROJECT_DIR$/Template/footer.html" />
         <option value="$PROJECT_DIR$/Template/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -143,7 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +200,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +225,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -281,16 +290,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="192" selection-end="192" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="19" column="12" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/covid19_detected/settings.py">
@@ -324,28 +326,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="119" selection-start="878" selection-end="878" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="867">
+        <state line="17" column="119" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="67" selection-start="196" selection-end="196" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+        <state line="4" column="67" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="78" selection-start="861" selection-end="861" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="833">
+        <state line="22" column="78" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xray_detect/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="12" selection-start="2356" selection-end="2361" vertical-scroll-proportion="-2.278157" vertical-offset="2406" max-vertical-offset="2992">
+        <state line="69" column="12" selection-start="2356" selection-end="2361" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.69624573" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>

@@ -22,6 +22,3 @@ py manage.py runserver
 
 5. step four:
 Open [http://localhost:8000]
-
-
-The current version has been developed by: Makhloufi Smail in 2020
